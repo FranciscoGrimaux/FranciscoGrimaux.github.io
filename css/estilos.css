@@ -372,7 +372,15 @@ background: #2ecc71;
 
 
 @media(max-width: 810px)
-{
+{	
+	ul{
+
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	}
 	h1 {
 	text-transform: uppercase;
 	font-family: "Anton";
@@ -420,14 +428,39 @@ p{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: space-around;
-{
+	justify-content: space-around;}
 
-}{
-}{
 }
 
 
+{
+}{
+}
+
+@media(max-width: 550px)
+{
+	h1 {
+	text-transform: uppercase;
+	font-family: "Anton";
+	font-weight: lighter;
+	margin-left: -5%;
+	margin-top: -20%;
+	font-size: 20px;
+	text-align: justify;
+	}	
+	ul{
+
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	}
+	h3{
+	font-size: 16px;
+	text-align: center;
+	}
+	
 
 
 
